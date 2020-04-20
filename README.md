@@ -1,2 +1,2 @@
-# Çarpanları Bulma Algoritması
-Verilen integer bir değerin çarpanlarını list şeklinde döndüren Java kodunda Algoritma Örneği
+# Kendi Halimde Çözdüğüm Çeşitli Algoritmalar 
+İçerisinde çoğunlukla matematiksel olmak üzere gerçek hayat problemlerinden alıntılı Java Kodunda Çeşitli Algoritmalar bulunmaktadır.
