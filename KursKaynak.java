@@ -5,11 +5,12 @@ public class KursKaynak {
 
 	public static void main(String[] args){
 		
-		// Algoritma ��z�mleri 
+		// Algoritma Çözümleri 
+		// Verilen Sayının Çarpanlarını Bulma Algoritması
 		
 		while(true) {
 			
-			System.out.println("Bir Say� Giriniz : ");
+			System.out.println("Bir Sayý Giriniz : ");
 			Scanner scan = new Scanner(System.in);
 			ArrayList<Integer> result = ArrayList(scan.nextInt());
 			System.out.println(result);
