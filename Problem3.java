@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// ProjectEuler 3.Problem Sonucu Asal Faktör Sorusu
+
 public class Problem3 {
 	
 public static void main(String[] args){
 		
 		ArrayList<Integer> liste = new ArrayList<Integer>();
-		System.out.println("Bir Say� Giriniz : ");
+		System.out.println("Bir Sayý Giriniz : ");
 		Scanner scanner = new Scanner(System.in);
 		int veri = scanner.nextInt();
 		
