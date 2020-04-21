@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
 public class Problem4 {
-
+	
+	// ProjectEuler 4.Problem Sonucu Girilen İki Sayının Oluşturabileceği En Büyük Palindrom sayıyı Dönen Algoritma Kodu
+	
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Birinci Say�y� Giriniz : ");
+		System.out.println("Birinci Sayýyý Giriniz : ");
 		int birinci = scan.nextInt();
-		System.out.println("�kinci Say�y� Giriniz : ");
+		System.out.println("Ýkinci Sayýyý Giriniz : ");
 		int ikinci = scan.nextInt();
 		scan.close();
 		int durum = 0;
@@ -19,7 +21,7 @@ public class Problem4 {
 			String reversing = new StringBuilder(sonuc).reverse().toString();
 			
 			if(Integer.parseInt(sonuc) == Integer.parseInt(reversing)) {
-				System.out.println("Sonu� Bulundu : " + sonuc);
+				System.out.println("Sonuç Bulundu : " + sonuc);
 				durum = 1;
 				break;
 			}
@@ -30,7 +32,7 @@ public class Problem4 {
 		}
 		
 		if(durum == 0)
-			System.out.println("Bulunamad�");
+			System.out.println("Bulunamadý");
 	}
 
 }
