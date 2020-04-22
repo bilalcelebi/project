@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
+// Girilen String ifadeyi Binary Koda Dönüştüren Algoritma Kodu
+// Birden fazla kelime girilecekse bu kelimeler aralarında boşluk olmadan girilmelidir.
+
 public class StringtoBinary {
 	
 public static void main(String[] args){
 		
 		while(true) {
 			
-			System.out.println("Bir S�zc�k Giriniz : ");
+			System.out.println("Bir Sözcük Giriniz : ");
 			Scanner scan = new Scanner(System.in);
 			String sozcuk = scan.next();
 			String sonuc = "";
@@ -18,7 +21,7 @@ public static void main(String[] args){
 					sonuc += result;
 			}
 			
-			System.out.println("Sonu� : " + sonuc);
+			System.out.println("Sonuç : " + sonuc);
 		}
 		
 	}
